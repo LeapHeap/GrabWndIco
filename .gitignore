@@ -1,0 +1,9 @@
+*.o
+*.exe
+*.debug
+*.bookmarks
+*.layout
+.backup/
+Edit_resource.lnk
+makefile.win
+
