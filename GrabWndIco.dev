@@ -44,11 +44,11 @@ UseUTF8 = 1
 
 
 [Unit1]
-FileName = GetWndIco.h
+FileName = main.c
 CompileCpp = 0
-Folder = Headers
-Compile = 0
-Link = 0
+Folder = Sources
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -57,10 +57,10 @@ RealEncoding = UTF-8
 
 
 [Unit2]
-FileName = GetWndIco.c
-Folder = Sources
-Compile = 1
-Link = 1
+FileName = GetWndIco.h
+Folder = Headers
+Compile = 0
+Link = 0
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -70,11 +70,11 @@ CompileCpp = 0
 
 
 [Unit3]
-FileName = resource.h
+FileName = GetWndIco.c
 CompileCpp = 0
-Folder = Headers
-Compile = 0
-Link = 0
+Folder = Sources
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -103,10 +103,10 @@ SyncProduct = 1
 
 
 [Unit4]
-FileName = main.c
-Folder = Sources
-Compile = 1
-Link = 1
+FileName = resource.h
+Folder = Headers
+Compile = 0
+Link = 0
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 

@@ -3,7 +3,7 @@
 *.debug
 *.bookmarks
 *.layout
-.backup/
+backup/
 Edit_resource.lnk
 makefile.win
 
